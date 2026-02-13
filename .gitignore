@@ -43,3 +43,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local Android SDK and Rust build artifacts
+.android-sdk/
+rust_lib/target/
+android/app/src/main/jniLibs/
